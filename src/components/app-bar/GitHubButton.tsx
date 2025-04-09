@@ -9,7 +9,7 @@ const GitHubButton: React.FC = () => {
       <Tooltip.Root delayDuration={300}>
         <Tooltip.Trigger asChild>
           <a
-            href="http://github.com/fuggerstadt1907/"
+            href="https://github.com/fuggerstadt1907/weather-app"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-600 dark:text-white hover:scale-110 transition-transform"
