@@ -1,13 +1,9 @@
-interface Props
-  extends React.DetailedHTMLProps<
+const Button: React.FC<
+  React.DetailedHTMLProps<
     React.ButtonHTMLAttributes<HTMLButtonElement>,
     HTMLButtonElement
-  > {
-  className?: string;
-  type?: "submit" | "reset" | "button" | undefined;
-}
-
-const Button: React.FC<Props> = ({ className, children, type = "submit" }) => {
+  >
+> = ({ className, children, type = "submit" }) => {
   return (
     <button
       type={type}
